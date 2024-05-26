@@ -58,5 +58,17 @@
             var result = VelocitySquaredCalculation18may2024.Substract(a, b);
             return result;
         }
+
+        public static LengthInMeter8may2024 operator /(VelocitySquaredInSquareMeterPerSquareSecond18may2024 velocitySquared1, AccelerationInMeterPerSecondSquared17may2024 acceleration2)
+        {
+            var result = LengthCalculation9may2024.Divide(velocitySquared1: velocitySquared1, acceleration2: acceleration2);
+            return result;
+        }
+
+        public static VelocitySquaredInSquareMeterPerSquareSecond18may2024 operator /(VelocitySquaredInSquareMeterPerSquareSecond18may2024 a, double factor)
+        {
+            var result = new VelocitySquaredInSquareMeterPerSquareSecond18may2024(a.GetInSquareMeterPerSquareSecond() / factor, a.GetPrecisionInSquareMeterPerSquareSecond() / factor);
+            return result;
+        }
     }
 }

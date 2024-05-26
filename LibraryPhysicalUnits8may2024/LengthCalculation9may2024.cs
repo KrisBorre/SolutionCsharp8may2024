@@ -70,6 +70,10 @@
             return new LengthInMeter8may2024(result, accuracy);
         }
 
-
+        public static LengthInMeter8may2024 Divide(VelocitySquaredInSquareMeterPerSquareSecond18may2024 velocitySquared1, AccelerationInMeterPerSecondSquared17may2024 acceleration2)
+        {
+            double result = velocitySquared1.GetInSquareMeterPerSquareSecond() / acceleration2.GetInMeterPerSecondSquared();
+            return new LengthInMeter8may2024(result, 0);
+        }
     }
 }

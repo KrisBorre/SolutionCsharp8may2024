@@ -74,5 +74,6 @@
             var result = AccelerationCalculation9may2024.Divide(velocity1: velocity1, time2: time2);
             return result;
         }
+
     }
 }

@@ -110,5 +110,12 @@
             double result = a.GetInCentimeter() / b.GetInCentimeter();
             return result;
         }
+
+        public static TimeInSeconds8may2024 operator /(LengthInCentimeter8may2024 length1, IVelocity6apr2024 velocity2)
+        {
+            var result = TimeCalculation13may2024.Divide(length1: length1, velocity2: velocity2);
+            return result;
+        }
+
     }
 }

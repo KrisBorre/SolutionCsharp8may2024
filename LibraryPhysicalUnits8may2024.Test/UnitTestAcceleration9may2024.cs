@@ -259,5 +259,36 @@
             Assert.Equal(expected: 4.41, actual: gemiddelde_versnelling.GetInMeterPerSecondSquared(), tolerance: 0.01);
             // 4,41 m/s^2
         }
+
+        [Fact]
+        public void Test10()
+        {
+            Console.WriteLine("Schaum's Physics");
+            Console.WriteLine("Chapter3: Kinematics in one dimension");
+            Console.WriteLine("page 41");
+            Console.WriteLine("Constant acceleration problems");
+            Console.WriteLine("Exercise 3.31");
+
+            Console.WriteLine("A proton in a uniform electric field moves along a straight line with constant acceleration.");
+            Console.WriteLine("Starting from rest it attains a velocity of 1000 km/s in a distance of 1 cm.");
+            Console.WriteLine("(a) What is the acceleration?");
+            Console.WriteLine("(b) What time is required to reach the given velocity?");
+
+            var v = new VelocityInMeterPerSecond13may2024(1_000_000);
+
+            var s = new LengthInCentimeter8may2024(1, 0);
+
+            var a_times_t = v;
+
+            var t = (2 * s) / a_times_t;
+
+            var a = a_times_t / t;
+
+            Console.WriteLine("a = " + a); // a = 50000000000000 m / s^2
+            Assert.Equal(expected: 5.0E+13, actual: a.GetInMeterPerSecondSquared(), tolerance: 1);
+
+            Console.WriteLine("t = " + t); // t = 2E-08 s
+            Assert.Equal(expected: 2.0E-8, actual: t.GetInSeconds(), tolerance: 1.0E-8);
+        }
     }
 }

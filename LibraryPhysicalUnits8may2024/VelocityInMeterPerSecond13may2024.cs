@@ -89,5 +89,11 @@
             var result = VelocitySquaredCalculation18may2024.Multiply(this, this);
             return result;
         }
+
+        public static TimeInSeconds8may2024 operator /(VelocityInMeterPerSecond13may2024 velocity1, IAcceleration acceleration2)
+        {
+            var result = TimeCalculation13may2024.Divide(velocity1: velocity1, acceleration2: acceleration2);
+            return result;
+        }
     }
 }

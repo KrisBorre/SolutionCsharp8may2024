@@ -76,7 +76,7 @@
 
         public static AccelerationInMeterPerSecondSquared17may2024 operator /(AccelerationInMeterPerSecondSquared17may2024 a, double factor)
         {
-            var result = new AccelerationInMeterPerSecondSquared17may2024(a.GetInMeterPerSecondSquared() / factor, a.GetInMeterPerSecondSquared() / factor);
+            var result = new AccelerationInMeterPerSecondSquared17may2024(a.GetInMeterPerSecondSquared() / factor, a.GetPrecisionInMeterPerSecondSquared() / factor);
             return result;
         }
 

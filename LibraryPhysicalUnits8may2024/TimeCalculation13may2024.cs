@@ -84,5 +84,11 @@
             double accuracy = Math.Sqrt(Math.Pow(first, 2) + Math.Pow(second, 2));
             return new TimeInSeconds8may2024(result, accuracy);
         }
+
+        public static TimeInSeconds8may2024 Divide(IVelocity6apr2024 velocity1, IAcceleration acceleration2)
+        {
+            double result = velocity1.GetInMeterPerSecond() / acceleration2.GetInMeterPerSecondSquared();
+            return new TimeInSeconds8may2024(result, 0);
+        }
     }
 }
