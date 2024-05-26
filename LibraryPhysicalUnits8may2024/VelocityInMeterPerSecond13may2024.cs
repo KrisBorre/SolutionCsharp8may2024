@@ -60,6 +60,12 @@
             return result;
         }
 
+        public static VelocityInMeterPerSecond13may2024 operator -(VelocityInMeterPerSecond13may2024 a)
+        {
+            var result = new VelocityInMeterPerSecond13may2024(-a.GetInMeterPerSecond(), a.GetPrecisionInMeterPerSecond());
+            return result;
+        }
+
         public static VelocityInMeterPerSecond13may2024 operator *(double factor, VelocityInMeterPerSecond13may2024 b)
         {
             var result = new VelocityInMeterPerSecond13may2024(factor * b.GetInMeterPerSecond(), factor * b.GetPrecisionInMeterPerSecond());
@@ -75,6 +81,12 @@
         public static VelocityInMeterPerSecond13may2024 operator /(VelocityInMeterPerSecond13may2024 a, double factor)
         {
             var result = new VelocityInMeterPerSecond13may2024(a.GetInMeterPerSecond() / factor, a.GetPrecisionInMeterPerSecond() / factor);
+            return result;
+        }
+
+        public VelocitySquaredInSquareMeterPerSquareSecond18may2024 Square()
+        {
+            var result = VelocitySquaredCalculation18may2024.Multiply(this, this);
             return result;
         }
     }

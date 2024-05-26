@@ -20,7 +20,7 @@
         {
             double result = velocity1.GetInMeterPerSecond() / time2.GetInSeconds();
             double first = velocity1.GetPrecisionInMeterPerSecond() / time2.GetInSeconds();
-            double second = (time2.GetPrecisionInSeconds() * velocity1.GetInMeterPerSecond()) / Math.Pow(time2.GetInSeconds(),2);
+            double second = (time2.GetPrecisionInSeconds() * velocity1.GetInMeterPerSecond()) / Math.Pow(time2.GetInSeconds(), 2);
             double accuracy = Math.Sqrt(Math.Pow(first, 2) + Math.Pow(second, 2));
             return new AccelerationInMeterPerSecondSquared17may2024(result, accuracy);
         }

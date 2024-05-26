@@ -79,5 +79,17 @@
             var result = new AccelerationInMeterPerSecondSquared17may2024(a.GetInMeterPerSecondSquared() / factor, a.GetInMeterPerSecondSquared() / factor);
             return result;
         }
+
+        public static VelocitySquaredInSquareMeterPerSquareSecond18may2024 operator *(AccelerationInMeterPerSecondSquared17may2024 acceleration1, ILength14feb2024 length2)
+        {
+            var result = VelocitySquaredCalculation18may2024.Multiply(acceleration1, length2);
+            return result;
+        }
+
+        public static VelocitySquaredInSquareMeterPerSquareSecond18may2024 operator *(ILength14feb2024 length1, AccelerationInMeterPerSecondSquared17may2024 acceleration2)
+        {
+            var result = VelocitySquaredCalculation18may2024.Multiply(acceleration2, length1);
+            return result;
+        }
     }
 }
