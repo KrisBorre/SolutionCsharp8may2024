@@ -75,5 +75,11 @@
             return result;
         }
 
+        public TimeSquaredInSquaredSeconds21may2024 Square()
+        {
+            var result = TimeSquaredCalculation21may2024.Multiply(this, this);
+            return result;
+        }
+
     }
 }

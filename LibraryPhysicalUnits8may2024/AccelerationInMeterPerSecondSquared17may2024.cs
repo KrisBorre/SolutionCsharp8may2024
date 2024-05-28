@@ -91,5 +91,17 @@
             var result = VelocitySquaredCalculation18may2024.Multiply(acceleration2, length1);
             return result;
         }
+
+        public static LengthInMeter8may2024 operator *(AccelerationInMeterPerSecondSquared17may2024 acceleration1, ITimeSquared timeSquared2)
+        {
+            var result = LengthCalculation9may2024.Multiply(acceleration1, timeSquared2);
+            return result;
+        }
+
+        public static LengthInMeter8may2024 operator *(ITimeSquared timeSquared1, AccelerationInMeterPerSecondSquared17may2024 acceleration2)
+        {
+            var result = LengthCalculation9may2024.Multiply(acceleration2, timeSquared1);
+            return result;
+        }
     }
 }

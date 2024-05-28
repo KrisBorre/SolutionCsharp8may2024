@@ -75,5 +75,12 @@
             double result = velocitySquared1.GetInSquareMeterPerSquareSecond() / acceleration2.GetInMeterPerSecondSquared();
             return new LengthInMeter8may2024(result, 0);
         }
+
+        public static LengthInMeter8may2024 Multiply(IAcceleration acceleration1, ITimeSquared timeSquared2)
+        {
+            double result = acceleration1.GetInMeterPerSecondSquared() * timeSquared2.GetInSquaredSeconds();
+            double accuracy = Math.Sqrt(Math.Pow(acceleration1.GetPrecisionInMeterPerSecondSquared() * timeSquared2.GetInSquaredSeconds(), 2) + Math.Pow(timeSquared2.GetPrecisionInSquaredSeconds() * acceleration1.GetInMeterPerSecondSquared(), 2));
+            return new LengthInMeter8may2024(result, accuracy);
+        }
     }
 }
