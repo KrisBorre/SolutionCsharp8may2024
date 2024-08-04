@@ -69,6 +69,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAuto26may2024", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRemweg27may2024", "ConsoleRemweg27may2024\ConsoleRemweg27may2024.csproj", "{111A4718-9E0A-4C09-A01B-9805F635D07D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePolitieAuto28may2024", "ConsolePolitieAuto28may2024\ConsolePolitieAuto28may2024.csproj", "{9B5B30A0-B41A-4E39-8FCC-D9DD330697E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{111A4718-9E0A-4C09-A01B-9805F635D07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{111A4718-9E0A-4C09-A01B-9805F635D07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{111A4718-9E0A-4C09-A01B-9805F635D07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5B30A0-B41A-4E39-8FCC-D9DD330697E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5B30A0-B41A-4E39-8FCC-D9DD330697E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5B30A0-B41A-4E39-8FCC-D9DD330697E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5B30A0-B41A-4E39-8FCC-D9DD330697E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

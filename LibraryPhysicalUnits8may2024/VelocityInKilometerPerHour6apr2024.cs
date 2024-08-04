@@ -36,6 +36,18 @@
             return m_PrecisionInKilometerPerHour;
         }
 
+        public static VelocityInKilometerPerHour6apr2024 operator +(VelocityInKilometerPerHour6apr2024 a, VelocityInKilometerPerHour6apr2024 b)
+        {
+            var result = VelocityCalculation9may2024.Add(a, b);
+            return new VelocityInKilometerPerHour6apr2024(result.GetInKilometerPerHour());
+        }
+
+        public static VelocityInKilometerPerHour6apr2024 operator -(VelocityInKilometerPerHour6apr2024 a, VelocityInKilometerPerHour6apr2024 b)
+        {
+            var result = VelocityCalculation9may2024.Substract(a, b);
+            return new VelocityInKilometerPerHour6apr2024(result.GetInKilometerPerHour());
+        }
+
         public static LengthInKilometer8may2024 operator *(VelocityInKilometerPerHour6apr2024 velocity1, ITime6apr2024 time2)
         {
             var result = LengthCalculation9may2024.Multiply(velocity1, time2);
@@ -52,6 +64,13 @@
         {
             var result = TimeCalculation13may2024.Divide(velocity1: velocity1, acceleration2: acceleration2);
             return result;
+        }
+
+        public VelocityInMeterPerSecond13may2024 ConvertToMeterPerSecond()
+        {
+            double velocityInMeterPerSecond = VelocityCalculation9may2024.ConvertKilometerPerHourIntoMeterPerSecond(m_VelocityInKilometerPerHour);
+            double precisionInMeterPerSecond = VelocityCalculation9may2024.ConvertKilometerPerHourIntoMeterPerSecond(m_PrecisionInKilometerPerHour);
+            return new VelocityInMeterPerSecond13may2024(velocityInMeterPerSecond, precisionInMeterPerSecond);
         }
     }
 }
