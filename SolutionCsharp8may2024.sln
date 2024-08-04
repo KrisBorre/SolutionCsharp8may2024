@@ -61,9 +61,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKinematics22may2024"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKinematics23may2024", "ConsoleKinematics23may2024\ConsoleKinematics23may2024.csproj", "{06996D10-6280-4B3F-BBD5-0DCCBFC63080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleKinematics24may2024", "ConsoleKinematics24may2024\ConsoleKinematics24may2024.csproj", "{E6557791-A92E-4425-8A8E-DF666B5DAB9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKinematics24may2024", "ConsoleKinematics24may2024\ConsoleKinematics24may2024.csproj", "{E6557791-A92E-4425-8A8E-DF666B5DAB9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleKinematics25may2024", "ConsoleKinematics25may2024\ConsoleKinematics25may2024.csproj", "{CA01794E-0A38-405D-BE92-80F358D3B999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKinematics25may2024", "ConsoleKinematics25may2024\ConsoleKinematics25may2024.csproj", "{CA01794E-0A38-405D-BE92-80F358D3B999}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAuto26may2024", "ConsoleAuto26may2024\ConsoleAuto26may2024.csproj", "{CE28F48A-2368-4C82-9E04-CEA5C2442FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRemweg27may2024", "ConsoleRemweg27may2024\ConsoleRemweg27may2024.csproj", "{111A4718-9E0A-4C09-A01B-9805F635D07D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +199,14 @@ Global
 		{CA01794E-0A38-405D-BE92-80F358D3B999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA01794E-0A38-405D-BE92-80F358D3B999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA01794E-0A38-405D-BE92-80F358D3B999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE28F48A-2368-4C82-9E04-CEA5C2442FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE28F48A-2368-4C82-9E04-CEA5C2442FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE28F48A-2368-4C82-9E04-CEA5C2442FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE28F48A-2368-4C82-9E04-CEA5C2442FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111A4718-9E0A-4C09-A01B-9805F635D07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111A4718-9E0A-4C09-A01B-9805F635D07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111A4718-9E0A-4C09-A01B-9805F635D07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111A4718-9E0A-4C09-A01B-9805F635D07D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

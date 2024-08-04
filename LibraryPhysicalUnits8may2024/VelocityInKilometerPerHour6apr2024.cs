@@ -47,5 +47,11 @@
             var result = LengthCalculation9may2024.Multiply(time1, velocity2);
             return new LengthInKilometer8may2024(result.GetInKilometer(), 0);
         }
+
+        public static TimeInSeconds8may2024 operator /(VelocityInKilometerPerHour6apr2024 velocity1, IAcceleration acceleration2)
+        {
+            var result = TimeCalculation13may2024.Divide(velocity1: velocity1, acceleration2: acceleration2);
+            return result;
+        }
     }
 }
